@@ -1,0 +1,29 @@
+{
+  "name": "isomorphic-netlify-shortener",
+  "version": "0.0.0",
+  "description": "A pure JavaScript implementation of netlify-shortener for node environments",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbeiswenger/isomorphic-netlify-shortener.git"
+  },
+  "author": "Matt Beiswenger <mattbeis@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbeiswenger/isomorphic-netlify-shortener/issues"
+  },
+  "homepage": "https://github.com/mattbeiswenger/isomorphic-netlify-shortener#readme",
+  "dependencies": {
+    "isomorphic-git": "^1.8.0",
+    "read-pkg-up": "^7.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "prettier": "^2.2.1"
+  }
+}
