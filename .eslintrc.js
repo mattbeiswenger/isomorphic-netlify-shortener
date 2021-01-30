@@ -3,6 +3,7 @@ module.exports = {
   parser: 'babel-eslint',
   env: {
     es6: true,
+    node: true,
   },
   parserOptions: {
     ecmaVersion: 2018,

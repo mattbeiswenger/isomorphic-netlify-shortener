@@ -1,10 +1,10 @@
-import { clone, add, commit, push } from 'isomorphic-git'
-import fs from 'fs'
-import os from 'os'
-import http from 'isomorphic-git/http/node'
-import { validateUnique, format } from './netlify-shortener-utils'
-import { formatUrl, formatEndpoint } from './utils'
-import readPkg from 'read-pkg-up'
+const { clone, add, commit, push } = require('isomorphic-git')
+const fs = require('fs')
+const os = require('os')
+const http = require('isomorphic-git/http/node')
+const { validateUnique, format } = require('./netlify-shortener-utils')
+const { formatUrl, formatEndpoint } = require('./utils')
+const readPkg = require('read-pkg-up')
 
 const shorten = async (
   url,

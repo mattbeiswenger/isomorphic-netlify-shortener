@@ -1,8 +1,8 @@
-import {
+const {
   addProtocolIfMissing,
   generateCode,
   validateUrl,
-} from './netlify-shortener-utils'
+} = require('./netlify-shortener-utils')
 
 export const formatEndpoint = (endpoint) => {
   if (endpoint) {

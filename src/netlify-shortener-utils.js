@@ -1,4 +1,4 @@
-import { URL } from 'url'
+const { URL } = require('url')
 
 /**
  * The utility functions in this file are taken directly from the
